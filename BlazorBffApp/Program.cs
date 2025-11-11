@@ -2,10 +2,10 @@
 // Licensed under the MIT License. See LICENSE in the project root for license information.
 
 using BlazorBffApp.Components;
+using Duende.Bff;
 using Duende.Bff.Blazor;
 using Duende.Bff.EntityFramework;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);

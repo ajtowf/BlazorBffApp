@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Duende.BFF.Blazor.Client" Version="3.0.0" />
+    <PackageReference Include="Duende.BFF.Blazor.Client" Version="4.0.0-rc.3" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="9.0.3" />
   </ItemGroup>
 
