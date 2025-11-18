@@ -7,15 +7,22 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Duende.BFF.Blazor" Version="3.0.0" />
-    <PackageReference Include="Duende.BFF.EntityFramework" Version="3.0.0" />
+    <PackageReference Include="Duende.BFF.Blazor" Version="3.1.0-rc.1" />
+    <PackageReference Include="Duende.BFF.EntityFramework" Version="3.1.0-rc.1" />
+
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="9.0.3" />
+
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.10">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.10" />
+
+    <!--<PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="9.0.0" />-->
+    <!--<PackageReference Include="System.Diagnostics.DiagnosticSource" Version="9.0.0" />-->
+    <PackageReference Include="Microsoft.Extensions.Http" Version="9.0.3" />
+    
     <ProjectReference Include="..\BlazorBffApp.Client\BlazorBffApp.Client.csproj" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="9.0.3" />
   </ItemGroup>
 
 </Project>
